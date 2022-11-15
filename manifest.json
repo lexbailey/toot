@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "Toot!",
+  "version": "1.0",
+
+  "description": "Toot toot!",
+
+  "content_scripts": [
+    {
+      "matches": ["*://tech.lgbt/*"],
+      "js": ["toot.js"]
+    }
+  ]
+
+}
+
